@@ -1,0 +1,28 @@
+Default Branch is main.
+
+git init (creates a repository)
+git diff (to compare two differnt version )
+git restore <filename>  (to dicard the changes in working directory)
+git status
+git log -->(histogram format)
+git log --oneline (only the last(4-6) id's)
+git add (adding to the staged area)
+git add * (adds all the files to the stagged area)
+gitignore (files which we dont want to track) --> *.pdf,a.out
+git commit -m "changes made into the file"
+git checkout (This command allows us to switch to an existing branch within our repository. 
+It facilitates navigating to the desired branch, enabling us to add new files, make changes, and commit those files within that specific branch)
+git checkout -b <branchname> (creates a new branch)
+git merge <branchname> (should be in the destination branch then merge it with the source code/branch)
+git stash (when we want to save our work without staging or committing the code to our Git repository)
+git clone (cloning the file into our local computer)
+git push (which pushes the commits made to the remote repository )
+git pull (which downloads the content from the specified remote repository and then immediately updates the local repo to match the content)
+
+working directory-->stagging area-->repository
+
+
+Resume idea:
+make a resume in the code format 
+like enter name 
+then ur details 
